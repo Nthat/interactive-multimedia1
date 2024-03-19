@@ -1,0 +1,25 @@
+/* styles.css */
+.image-gallery {
+    -fx-background-color: #f0f0f0;
+}
+
+.full-size-image {
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0.5, 0, 0);
+}
+
+.navigation-buttons {
+    -fx-padding: 10px;
+}
+
+.center-pane {
+    -fx-alignment: center;
+}
+
+.thumbnail-image {
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #000000, 5, 0.5, 0, 0);
+}
+
+.thumbnail-image:hover {
+    -fx-opacity: 0.7;
+}
